@@ -36,3 +36,22 @@ SREM - Remove an element from set.
 
 SSCAN key cursorid COUNT number - Scan through all the elements in set.
 
+HINCRBY - Updates a number value by hash, adds integer. Add negative to substract.
+
+HINCRBYFLOAT - Updates a number value by hash, adds float. Add negative to substract.
+
+#### Sorted Sets
+ZADD - Add a member score pair to a sorted set
+
+ZSCORE - Get the score of a member
+
+ZREM - Remove a member from a sorted set
+
+ZCARD - Get the number of members
+
+ZCOUNT - Get the number of members within a range.
+
+ZPOPMIN - Remove and return some number of lowest score pairs.
+
+ZPOPMAX - Remove and return some number of highest score pairs.
+
